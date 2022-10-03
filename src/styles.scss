@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Proxima";
+    src: local("Proxima"), url(./assets/fonts/ProximaNova-Reg.otf) format("truetype");
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: "Proxima"; }
+
+
+
+.wh-bg-primary{
+    background-color: rgb(30, 20, 76);
+}
+
+.wh-bg-secondary{
+    background-color: rgb(23, 213, 185) !important;
+}
+
+.wh-bg-danger{
+    background-color: rgb(234, 87, 14) !important;
+}
+
+.text-wh-secondary{
+    color: rgb(23, 213, 185) !important;
+}
+
+.banner-img{
+    background-size: cover;
+    width: 100%;
+}
+
+.wh-btn-rounded{
+    border-radius: 40px !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+.wh-btn{
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700 !important;
+}
+
+.infos{
+    border-radius: 40px !important;
+}
